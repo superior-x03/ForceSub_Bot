@@ -17,7 +17,7 @@ async def _start(client, message):
             if user.status == "kicked":
                await client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/UniversalBotsSupport).",
+                   text="You are Banned to use me. Contact my [Owner](https://t.me/IAm_Sandesh).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -46,7 +46,7 @@ async def _start(client, message):
                            InlineKeyboardButton("Other Groups", url="https://t.me/sandeshs_gateway")
                       ],
                      [
-                           InlineKeyboardButton("Bot Owner", url="https://t.me/IAm_Sandesh")
+                           InlineKeyboardButton("Owner", url="https://t.me/IAm_Sandesh")
                      ]
                  ]
              ),
@@ -59,11 +59,11 @@ async def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/UniversalBotsUpdate"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/UniversalBotsSupport")
+                    InlineKeyboardButton("Mirror Group", url="https://t.me/superior_mirror"),
+                           InlineKeyboardButton("Other Groups", url="https://t.me/sandeshs_gateway")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/JigarVarma2005")
+                    InlineKeyboardButton("Owner", url="https://t.me/IAm_Sandesh")
                 ]
             ]
         ),
@@ -86,7 +86,7 @@ async def _source_code(client, message):
                     InlineKeyboardButton("Support Group", url="https://t.me/UniversalBotsSupport")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/JigarVarma2005")
+                    InlineKeyboardButton("Owner", url="https://t.me/IAm_Sandesh")
                 ]
             ]
         ),
