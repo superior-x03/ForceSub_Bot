@@ -42,11 +42,11 @@ async def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/UniversalBotsUpdate"),
-                           InlineKeyboardButton("Support Group", url="https://t.me/UniversalBotsSupport")
+                           InlineKeyboardButton("Mirror Group", url="https://t.me/superior_mirror"),
+                           InlineKeyboardButton("Other Groups", url="https://t.me/sandeshs_gateway")
                       ],
                      [
-                           InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/JigarVarma2005")
+                           InlineKeyboardButton("Bot Owner", url="https://t.me/IAm_Sandesh")
                      ]
                  ]
              ),
