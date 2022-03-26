@@ -10,8 +10,8 @@
         "Forcesub",
         "ForceSubBot"
     ],
-    "repository": "https://github.com/Jigarvarma2005/ForceSub_Bot",
-    "website": "https://t.me/UniversalBotsUpdate",
+    "repository": "https://github.com/superior-x03/ForceSub_Bot",
+    "website": "https://t.me/superior_mirror",
     "success_url": "https://t.me/UniversalBotsUpdate",
     "env": {
         "API_HASH": {
